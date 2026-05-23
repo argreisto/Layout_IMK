@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Halaman Muka Website</title>
+
+    <style>
+
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#eef6ff;
+            color:#333;
+        }
+
+        header{
+            background:linear-gradient(135deg,#4da3ff,#7cc4ff);
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        header h1{
+            margin:0;
+            font-size:30px;
+        }
+
+        .container{
+            width:90%;
+            max-width:1000px;
+            margin:25px auto;
+            background:white;
+            border-radius:16px;
+            overflow:hidden;
+            box-shadow:0 6px 16px rgba(0,0,0,0.15);
+        }
+
+        .title{
+            background:#dff0ff;
+            color:#2678c9;
+            text-align:center;
+            padding:16px;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        .layout{
+            margin:20px;
+            border:2px solid #cfe7ff;
+            border-radius:10px;
+            overflow:hidden;
+        }
+
+        .header-box{
+            background:#cfe7ff;
+            padding:16px;
+            text-align:center;
+            font-weight:bold;
+            border-bottom:2px solid #b7dbff;
+        }
+
+        .search-box{
+            background:#f5fbff;
+            padding:14px;
+            text-align:center;
+            border-bottom:2px solid #b7dbff;
+        }
+
+        .hero-box{
+            background:#e8f4ff;
+            padding:45px;
+            text-align:center;
+            border-bottom:2px solid #b7dbff;
+        }
+
+        .content{
+            display:flex;
+        }
+
+        .main-content{
+            width:70%;
+            padding:40px;
+            text-align:center;
+            border-right:2px solid #b7dbff;
+        }
+
+        .sidebar{
+            width:30%;
+            padding:40px;
+            text-align:center;
+            background:#f7fbff;
+        }
+
+        .footer-box{
+            background:#cfe7ff;
+            padding:16px;
+            text-align:center;
+            border-top:2px solid #b7dbff;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Layout Halaman Muka Website</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="title">
+            Contoh Layout Website
+        </div>
+
+        <div class="layout">
+
+            <div class="header-box">
+                LOGO | Home | About | Login
+                <br>
+                HEADER
+            </div>
+
+            <div class="search-box">
+                Cari sesuatu...
+                <br>
+                SEARCH BAR
+            </div>
+
+            <div class="hero-box">
+                Banner Utama Website
+                <br>
+                HERO SECTION
+            </div>
+
+            <div class="content">
+
+                <div class="main-content">
+                    Artikel / Produk / Berita
+                    <br>
+                    KONTEN UTAMA
+                </div>
+
+                <div class="sidebar">
+                    Kategori
+                    <br>
+                    Konten Populer
+                    <br>
+                    SIDEBAR
+                </div>
+
+            </div>
+
+            <div class="footer-box">
+                Kontak | Sosial Media | Bantuan | Copyright
+                <br>
+                FOOTER
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
